@@ -1,38 +1,35 @@
 {
   "id": "sw5e-statblock-importer",
-  "name": "sw5e-statblock-importer",
-  "title": "sw5e Statblock Importer",
-  "description": "Import monster and NPC statblocks for sw5e",
+  "title": "sw5e-statblock-importer",
   "version": "0.0.1",
   "compatibility": {
-    "minimum": "10",
-    "maximum": "12",
+    "minimum": "12",
     "verified": "12"
   },
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "12",
-  "authors": [
-    {
-      "name": "ArcaneRoboBrain",
-      "discord": "ArcaneRoboBrain#6885",
-      "flags": {}
-    },
-    {
-      "name": "Alexis Witteck",
-      "flags": {}
-    }
-  ],
   "relationships": {
+    "requires": [
+      {
+        "id": "sw5e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
     "systems": [
       {
-        "id": "dnd5e"
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
       }
     ]
   },
   "esmodules": ["./scripts/sbi.js"],
   "styles": ["./styles/sbi.css"],
-  "url": "https://github.com/awitteck/sw5e-statblock-importer",
-  "manifest": "https://raw.githubusercontent.com/awitteck/sw5e-statblock-importer/main/module.json",
-  "download": "https://github.com/awitteck/sw5e-statblock-importer/archive/0.0.1.zip"
+  "authors": [
+    {
+      "name": "Alexis Witteck",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/awitteck/sw5e-statblock-importer"
 }
 

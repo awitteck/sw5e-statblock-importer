@@ -32,6 +32,5 @@
   ],
   "url": "https://github.com/awitteck/sw5e-statblock-importer",
   "manifest": "https://raw.githubusercontent.com/awitteck/sw5e-statblock-importer/v0.0.1/module.json",
-  "download": "https://github.com/awitteck/sw5e-statblock-importer/archive/refs/"
+  "download": "https://github.com/awitteck/sw5e-statblock-importer/archive/refs/tags/0.0.1.zip"
 }
-
